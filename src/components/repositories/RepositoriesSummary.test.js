@@ -1,7 +1,7 @@
 import {screen, render } from '@testing-library/react';
 import RepositoriesSummary from './RepositoriesSummary';
 
-test('it displays the primary language from repository', () => {
+test('it displays the primary language of the repository', () => {
 const repository = {
     language: 'Javascript',
     stargazers_count: 5,
